@@ -12,6 +12,25 @@ body {
     background-size: cover;
     background-position: center;
 }
+.main--banner--background2 {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.rtcdirect.net/wp-content/uploads/bigstock-Happy-young-businesspeople-hav-13080158.jpg');
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0,0, 0.7)), url('https://www.rtcdirect.net/wp-content/uploads/bigstock-Happy-young-businesspeople-hav-13080158.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main--banner--background3 {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/86/b8/90/86b890a4c9fb566af8aacef0f208db87.jpg');
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0,0, 0.7)), url('https://i.pinimg.com/originals/86/b8/90/86b890a4c9fb566af8aacef0f208db87.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 80%;
+}
+
 .banner--content {
     height: 400px;
     color: #fff;
@@ -54,4 +73,8 @@ body {
     height: 430px;
     border-radius: 20px;
     box-shadow: 10px 10px 0px blue;
+}
+.about--page--info p {
+    margin: 0;
+    margin-bottom: 5px;
 }

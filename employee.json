@@ -1,23 +1,27 @@
 [
     {
         "name": "Osama",
+        "img": "https://valentinoshairdesign.co.nz/wp-content/uploads/2018/04/mens_hairstyle.jpg",
         "designation": "CEO + Senior Mern Developer",
         "education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "dob": "22-8-2002",
+        "cnic": "42501-6707701-1",
+        "phone": "03378059113",
+        "about": "Osama is a skilled CEO and Senior MERN Developer with a BSCS degree. His leadership skills and MERN expertise make him a valuable asset to any team."
     },
     {
         "name": "Hasnain",
-        "designation": "Junior Mern Developer + UI/UX Designer",
-        "Education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "img": "https://i.pinimg.com/originals/83/3c/a4/833ca4bc30daf4f7987dbe40c6115175.jpg",
+        "designation": "CFO + Junior Mern Developer",
+        "education": "BSCS",
+        "dob": "22-8-2002",
+        "cnic": "42501-6245501-1",
+        "phone": "03448098543",
+        "about": "Hasnain is a skilled CFO and Junior MERN Developer with a BSCS degree. His financial expertise and MERN knowledge make him a valuable asset to any team."
     },
     {
         "name": "Moiz",
-        "designation": "React Native Developer",
+        "designation": "COO + React Native Developer",
         "Education": "BSCS",
         "DOB": "22-8-2002",
         "CNIC": "1234567",
@@ -25,7 +29,7 @@
     },
     {
         "name": "Talha",
-        "designation": "Senior Mern Developer + .Net Developer",
+        "designation": "CTO + Senior Mern Developer + .Net Developer",
         "Education": "BSCS",
         "DOB": "22-8-2002",
         "CNIC": "1234567",
@@ -33,7 +37,7 @@
     },
     {
         "name": "Shaheer",
-        "designation": "Junior React Developer",
+        "designation": "VP of Engineering + Junior React Developer",
         "Education": "BSCS",
         "DOB": "22-8-2002",
         "CNIC": "1234567",
@@ -41,7 +45,7 @@
     },
     {
         "name": "Arslan",
-        "designation": "Junior React Developer",
+        "designation": "Manager of Engineering + Junior React Developer",
         "Education": "BSCS",
         "DOB": "22-8-2002",
         "CNIC": "1234567",
@@ -57,7 +61,7 @@
     },
     {
         "name": "Saddam",
-        "designation": "React Native Developer + Python Developer",
+        "designation": "React Native Developer + Python Developer + Open AI Developer",
         "Education": "BSCS",
         "DOB": "22-8-2002",
         "CNIC": "1234567",
