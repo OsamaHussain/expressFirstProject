@@ -1,17 +1,59 @@
 const express = require('express');
+const path = require('path');
+const fs = require('fs');
 const app = express();
 const port = 3000;
 
+app.engine('.html', require('ejs').__express);
+
+app.use(express.static('public'))
+
+const publicDirectoryPath = { root: path.join(__dirname, '/public') }
+
 app.get('/', (req, res) => {
-  res.send('Home Page');
+  res.sendFile('Home.html', publicDirectoryPath);
 });
 
 app.get('/about', (req, res) => {
-    res.send('My Name is Osama');
+    res.sendFile('About.html', publicDirectoryPath);
 });
 
-app.get('/about/bio', (req, res) => {
-    res.send('I Study in FUUAST');
+app.get('/about/:name', (req, res) => {
+    const name = req.params.name.toLowerCase();
+    const filePath = path.join(__dirname, 'employee.json');
+    console.log(__dirname);
+    // const filePath = publicDirectoryPath + 'employee.json';
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      try {
+        const jsonData = JSON.parse(data);
+        const employee = jsonData.find(e => e.name.toLowerCase() === name);
+        if (!employee) {
+          res.status(404).send(`No employee found with the name "${name}"`);
+          return;
+        }
+        const fileName = 'Employee.html';
+        const options = { 
+          root: path.join(__dirname, 'public'),
+        };
+        res.sendFile(fileName, options, (err) => {
+          if (err) {
+            console.error(err);
+            res.status(500).send('An error occurred while sending the file');
+          }
+        });
+      } catch (e) {
+        console.error(e);
+        res.status(500).send('An error occurred while parsing the data');
+      }
+    });
+
+
+
+    // res.sendFile('Employee.html', publicDirectoryPath);
+    // res.sendFile();
+    
+    // res.send(`Welcome! ${req.params.name.charAt(0).toUpperCase()}${req.params.name.substring(1).toLowerCase()} to Our Site`);
 });
 
 app.listen(port, () => {

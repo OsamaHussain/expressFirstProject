@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main--banner--background {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://ua.jubee.org/img/company/n-ix/6a09aad48bd79af93afe00b30df32da2.jpg');
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0,0, 0.7)), url('https://ua.jubee.org/img/company/n-ix/6a09aad48bd79af93afe00b30df32da2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner--content {
+    height: 400px;
+    color: #fff;
+}
+.banner--content h3{
+    margin: 0;
+    font-size: 50px;
+}
+.our--staff p{
+    margin: 0;
+}
+.our--staff a{
+    color: unset;
+    text-decoration: none;
+}
+.our--staff img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+.our--staff .staff--single {
+    background-color: #eee;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 0 0 8px #888888;
+}
+.staff--single h3 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.about--page--image img{
+    object-fit: cover;
+    border:10px solid red;
+    border-bottom: none;
+    border-right: none;
+    width: 430px;
+    height: 430px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px blue;
+}
