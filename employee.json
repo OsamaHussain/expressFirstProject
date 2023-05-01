@@ -1,12 +1,12 @@
 [
     {
         "name": "Osama",
-        "img": "https://valentinoshairdesign.co.nz/wp-content/uploads/2018/04/mens_hairstyle.jpg",
+        "img": "https://avatars.mds.yandex.net/i?id=b98a7e024fea90bab9fb898f0236f99b313b2434-8343733-images-thumbs&n=13",
         "designation": "CEO + Senior Mern Developer",
         "education": "BSCS",
         "dob": "22-8-2002",
-        "cnic": "42501-6707701-1",
-        "phone": "03378059113",
+        "cnic": "45321-1234567-1",
+        "phone": "+923371234567",
         "about": "Osama is a skilled CEO and Senior MERN Developer with a BSCS degree. His leadership skills and MERN expertise make him a valuable asset to any team."
     },
     {
@@ -15,56 +15,68 @@
         "designation": "CFO + Junior Mern Developer",
         "education": "BSCS",
         "dob": "22-8-2002",
-        "cnic": "42501-6245501-1",
-        "phone": "03448098543",
+        "cnic": "45321-1234567-1",
+        "phone": "+923341234567",
         "about": "Hasnain is a skilled CFO and Junior MERN Developer with a BSCS degree. His financial expertise and MERN knowledge make him a valuable asset to any team."
     },
     {
         "name": "Moiz",
+        "img": "https://valentinoshairdesign.co.nz/wp-content/uploads/2018/04/mens_hairstyle.jpg",
         "designation": "COO + React Native Developer",
-        "Education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "education": "BSCS",
+        "dob": "11-1-2000",
+        "cnic": "45321-1234567-1",
+        "phone": "+923341234567",
+        "about": "Moiz is a talented individual born on August 22nd, 2002, with a degree in Computer Science (BSCS). He has expertise as a COO and React Native developer, making him a valuable asset to any team."
     },
     {
         "name": "Talha",
+        "img": "https://avatars.mds.yandex.net/i?id=2efeacd8056860feb46fe5ef05bb46821a4ea398-8297859-images-thumbs&n=13",
         "designation": "CTO + Senior Mern Developer + .Net Developer",
-        "Education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "education": "BSCS",
+        "dob": "22-8-2002",
+        "cnic": "45321-1234567-1",
+        "phone": "+923341234567",
+        "about": "Talha is a talented individual born on August 22nd, 2002, with a degree in Computer Science (BSCS). He is a versatile CTO, Senior MERN Developer, and .Net Developer with a wealth of technical expertise. Talha's skills and experience make him a valuable asset to any team."
     },
     {
         "name": "Shaheer",
+        "img": "https://img1.goodfon.com/original/5000x3333/7/85/aksessuary-ochki-paren-pidzhak.jpg",
         "designation": "VP of Engineering + Junior React Developer",
-        "Education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "education": "BSCS",
+        "dob": "22-8-2002",
+        "cnic": "45321-1234567-1",
+        "phone": "+923341234567",
+        "about": "Shaheer is a young and talented individual born on August 22nd, 2002, with a degree in Computer Science (BSCS). He is currently serving as the VP of Engineering and also has experience as a Junior React Developer. Shaheer's technical skills and experience make him a valuable addition to any team."
     },
     {
         "name": "Arslan",
+        "img": "https://i.pinimg.com/originals/55/39/77/553977909f24e4d287f4e9b1f1ab3ac2.jpg",
         "designation": "Manager of Engineering + Junior React Developer",
-        "Education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "education": "BSCS",
+        "dob": "22-8-2002",
+        "cnic": "45321-1234567-1",
+        "phone": "+923341234567",
+        "about": "Arslan is a talented individual born on August 22nd, 2002, with a degree in Computer Science (BSCS). He currently holds the position of Manager of Engineering and also has experience as a Junior React Developer. Arslan's technical skills and experience make him a valuable asset to any team."
     },
     {
         "name": "Hassan",
+        "img": "https://static.massimodutti.net/3/photos/2021/V/0/2/p/2002/145/400/2002145400_10_1_16.jpg?t=1611246237836&impolicy=massimodutti-itxmedium&imwidth=1000",
         "designation": "UI/UX Designer + Junior Web Developer + React Native Developer",
-        "Education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "education": "BSCS",
+        "dob": "22-8-2002",
+        "cnic": "45321-1234567-1",
+        "phone": "+923341234567",
+        "about": "Hassan is a young and talented individual born on August 22nd, 2002, with a degree in Computer Science (BSCS). He is a versatile professional with expertise in UI/UX design, Junior Web Development, and React Native Development. Hassan's skills and experience make him a valuable asset to any team."
     },
     {
         "name": "Saddam",
+        "img": "https://avatars.mds.yandex.net/i?id=bbedcdf745eece4f36b8e14ad5e9f716_l-4855057-images-thumbs&ref=rim&n=13&w=640&h=640",
         "designation": "React Native Developer + Python Developer + Open AI Developer",
-        "Education": "BSCS",
-        "DOB": "22-8-2002",
-        "CNIC": "1234567",
-        "about": "Lorem ipsum"
+        "education": "BSCS",
+        "dob": "22-8-2002",
+        "cnic": "45321-1234567-1",
+        "phone": "+923341234567",
+        "about": "Saddam is a talented individual born on August 22nd, 2002, with a degree in Computer Science (BSCS). He has expertise in React Native Development, Python Development, and Open AI Development. Saddam's skills and experience make him a valuable asset to any team."
     }
 ]
